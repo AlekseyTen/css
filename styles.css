@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */
+    font: normal 16px 'Roboto', sans-serif;
+
+
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited {
+    color: grey;
+}
+.avatarn {
+    width: 200px;
+    border-radius: 38px;
+    box-shadow: 4px 4px 15px rgba(0, 0, blue, alpha);
+}
+.info {
+    color: #86898f;
+    margin-bottom: 20px;
+    padding: -10px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 30px; */
+
+}
+@media (max-width:700px;){
+    .info{
+        display: block;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4{
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 750px;
+    margin: 100px;
+    padding-top: -20px;
+    
+}
+.social {
+    border: 0;
+    background: 0;
+    padding: 1px;
+    margin: 0px;
+   
+}
+
+.card {
+    padding: 15px 20px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 600px;
+}
+.bg-yellow {
+    background:#fff9dc;
+}
+.bg-green {
+    background:#e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 40px;
+}
+.list li {
+    colort:#86898f ;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(3),
+.table td:nth-child(4){
+    color: #a8aaad;
+}
+.link-list {
+    list-style: inside;
+    padding: 0;
+}
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.contact h2 {
+text-align: center;
+}
+.form-group label{
+display: block;
+font-size: 15px;
+}
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    margin: 5px;
+    background: transparent;
+    outline: none
+    font- invert;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.row >.form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+.btn {
+    color: #fff;
+    padding: 15px 20px;
+    background: #111;
+    width: 700px;
+    border: none;
